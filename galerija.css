@@ -1,0 +1,115 @@
+
+  body{
+    background-color: mintcream;
+
+  }
+
+  h3{
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+font-weight: bold;
+  }
+
+  p{
+    text-align: center;
+  }
+  /* The Modal (background) */
+  .modal {
+    /*display:grid;*/
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /*for scrollbar for modal images*/
+    background-color: rgba(0, 0, 0, 0.6)
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: transparent;
+    margin: auto; /*to center the image in modal*/
+    padding: 0;
+    width: 90%;
+    max-width: 700px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  /* The Close Button */
+  .exit {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .exit:hover,
+  .exit:focus {
+   
+    color: oldlace;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /*default display option for modals*/
+  .mySlides {
+    display: none;
+  }
+  
+
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 7px;
+    margin-top: -50px;
+    color: oldlace;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* To put the Next button on the right. No need for the Prev, because it is on the beginning of the modal, just aligned to center */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through for pictures */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .row{
+    
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.col-sm-3 img{
+    transition: 0.5s;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor:zoom-in;
+    margin-bottom: 15px;
+    
+    }
+
+.mySlides img{
+    width: 100%;
+    }

@@ -1,0 +1,300 @@
+@media screen and (max-width: 950px) {
+    body {
+     position: relative;
+     top: 0%;
+     bottom: 0%;
+     right: 0%;
+     left: 0%;
+     }
+    }
+
+    body{
+      background-color: mintcream;
+
+    }
+
+
+#navbar{
+  display:flex;
+  float:inline-start;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(209, 208, 208);
+  height: 100px;
+  position: fixed;
+  top: 0;
+}
+#navbar li{
+  margin:0;
+  display: inline-block;
+  text-decoration: none;
+  
+}
+
+#navbar li a{
+ font-size: 20px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+/*  za dropdown navbara */
+
+.dropdown .dropbtn {
+font-size: 17px;    
+border: none;
+outline: none;
+cursor:pointer;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+transition: 1.2s ease;
+
+}
+
+.navigation a:hover, .dropdown:hover .dropbtn {
+  background-color: none;
+  color: white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(230, 230, 230);
+  color: black;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+footer{
+    background-color: rgb(0, 40, 51);
+    color: oldlace;
+    margin: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+/*Za prevlacenjeVolana.html*/
+h1{
+  margin-top: 140px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+
+}
+p{
+  margin-left: 15px;
+  margin-bottom: 65px;
+  font-size: 25px;
+  
+
+}
+#link2other{
+  text-decoration: none;
+  color: rgb(235, 103, 94);
+}
+
+.row{
+  padding-bottom: 15px;
+}
+
+.col-sm-4{
+  height: 450px;
+  margin:3px, 3px, 30px, 3px;
+  transition: 0.5s;
+  border-radius: 5px;
+  cursor:zoom-in;
+}
+
+.col-sm-4 img{
+    width: 100%;
+    height: inherit;
+    border-radius: 5px;
+    
+    }
+
+    .modal {
+      /*display:grid;*/
+      position: fixed;
+      z-index: 0;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto; /*for scrollbar for modal images*/
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    
+    /* Modal Content */
+    .modal-content {
+      position: relative;
+      background-color: transparent;
+      margin: auto; /*to center the image in modal*/
+      padding: 0;
+      width: 90%;
+      max-width: 700px;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+    
+    /* The Close Button */
+    .exit {
+      color: white;
+      position: absolute;
+      top: 10px;
+      right: 25px;
+      font-size: 35px;
+      font-weight: bold;
+    }
+    
+    .exit:hover,
+    .exit:focus {
+     /* color: #999;*/
+      color: oldlace;
+  
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .mySlides {
+      display: none;
+    }
+    
+  
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 7px;
+      margin-top: -50px;
+      color: oldlace;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    
+    /* To put the Next button on the right. No need for the Prev, because it is on the beginning of the modal, just aligned to center */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+  
+    
+    .hover-shadow:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    }  
+  
+  .mySlides img{
+      width: 100%;
+      }
+
+
+      /*For Kontakt page*/
+
+      #rowK1{
+        margin-top: 125px;
+        display: flex;
+        
+      }
+      #K1{
+        padding: 60px;
+      }
+
+      #r1c1r1{
+        text-align: center;
+      } 
+
+      #ko p{
+        color: oldlace;
+      }
+     
+      #kontakt{
+        background-image: url(imgs/galerija/pic4.jpg);
+        background-size: 100% 135%;
+        background-repeat: no-repeat;
+      }
+      .fa{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 45px;
+      }
+
+      #footerK{
+        position: fixed;
+        bottom: 0;
+      }
+
+      #ikone{
+        text-align: center;
+      }
+
+      #K1{
+        padding-top: 85px;
+      }
+
+      #K2{
+        padding-top: 85px;
+      }
+
+      #broj{
+        margin-top: 50px;
+      }
+
+      /*For O nama page*/
+
+      #onamaBody{
+        background-color: white;
+      /*  background-color: rgb(4, 59, 73);*/
+      }
+      #onama{
+        margin-top: 140px;
+        margin-left: 0%;
+        /*color: oldlace;*/
+      color: black;
+      }
+
+      #onama p a{
+        text-align: left;
+        text-decoration: none;
+      color:steelblue;
+      }
